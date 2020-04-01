@@ -19,9 +19,12 @@ export default function Projects() {
 
 
     return (
+        <>
+        <h2>Here are some products I've built:</h2> 
         <div className="project-grid">
             {projects.map(project => <Project image={project.image} description={project.description} url={project.url} />)}
 
         </div>
+        </>
     )
 }
