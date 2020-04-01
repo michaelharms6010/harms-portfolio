@@ -6,6 +6,15 @@
 
 .App {
   text-align: center;
+  background-image: url("./assets/mike.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height:100vh;
+}
+
+p, h1,h2,h3,h4,h5 {
+  background: #bfbff8;
+  margin: 0% 3%;
 }
 
 
