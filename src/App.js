@@ -2,15 +2,18 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import Navigation from "./components/Navigation";
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
+import Bio from "./components/Bio";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Navigation />
-        <Route path="/bio" />
-        <Route path="/projects" />
-        <Route path="/contact" />
+        <Route path="/bio" component={Bio} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/contact" component={Contact} />
       </div>
     </Router>
   );
