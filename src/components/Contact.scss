@@ -15,6 +15,41 @@
         } img {
             height: 100%;
             width:100%;
+
+            animation-name: spinner-rev;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+        }
+        img:hover {
+            -webkit-animation-name: spinner;
+            -webkit-animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-duration: 2s;
+
+            animation-name: spinner;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes spinner {
+            from {
+                transform: translateY(0px);
+            }
+            to {
+                transform: translateY(-30px) scale(1.05);
+            }
+        }
+        @keyframes spinner-rev {
+            from {
+                transform: translateY(-30px) scale(1.05);
+            }
+            to {
+                transform: translateY(0px);
+            }
         }
     }
 }
