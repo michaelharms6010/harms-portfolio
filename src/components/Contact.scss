@@ -4,9 +4,13 @@
     }
 
     .contact-icons {
-        width: 80%;
-        margin: 0 auto;
+        width: 60%;
+        margin: 2% auto;
         display:flex;
+        background: whitesmoke;
+        border-radius:20px;
+        padding:20px;
+        padding-bottom:10px;
         align-items:center;
         justify-content:space-around;
         a {
@@ -19,19 +23,14 @@
             animation-name: spinner-rev;
             animation-timing-function: ease;
             animation-iteration-count: 1;
-            animation-duration: 2s;
+            animation-duration: 1s;
             animation-fill-mode: forwards;
         }
         img:hover {
-            -webkit-animation-name: spinner;
-            -webkit-animation-timing-function: linear;
-            -webkit-animation-iteration-count: infinite;
-            -webkit-animation-duration: 2s;
-
             animation-name: spinner;
             animation-timing-function: ease;
             animation-iteration-count: 1;
-            animation-duration: 2s;
+            animation-duration: 1s;
             animation-fill-mode: forwards;
         }
 
@@ -40,12 +39,12 @@
                 transform: translateY(0px);
             }
             to {
-                transform: translateY(-30px) scale(1.05);
+                transform: translateY(-20px) scale(1.05);
             }
         }
         @keyframes spinner-rev {
             from {
-                transform: translateY(-30px) scale(1.05);
+                transform: translateY(-20px) scale(1.05);
             }
             to {
                 transform: translateY(0px);
