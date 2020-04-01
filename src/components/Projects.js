@@ -6,7 +6,6 @@ import zecmailer from "../assets/zecmailer.PNG";
 import ZecpagesBoard from "../assets/ZecpagesBoard.PNG";
 import ZecpagesFront from "../assets/ZecpagesFront.PNG";
 
-
 import Project from "./Project";
 
 let projects = [
