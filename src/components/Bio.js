@@ -4,6 +4,6 @@ import './Bio.scss';
 export default function Bio() {
 
     return (
-        <h1>Hi from Bio.js</h1>
+        <h1>Good day!</h1>
     )
 }
