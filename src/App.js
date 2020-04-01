@@ -8,6 +8,9 @@ function App() {
     <Router>
       <div className="App">
         <Navigation />
+        <Route path="/bio" />
+        <Route path="/projects" />
+        <Route path="/contact" />
       </div>
     </Router>
   );
