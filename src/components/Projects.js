@@ -17,11 +17,10 @@ let projects = [
 export default function Projects() {
     return (
         <>
-        <h2>Some open-source products I've built:</h2> 
-        <div className="project-grid">
-            {projects.map(project => <Project image={project.image} description={project.description} url={project.url} />)}
-
-        </div>
+            <h2>Some open-source products I've built:</h2> 
+            <div className="project-grid">
+                {projects.map(project => <Project image={project.image} description={project.description} url={project.url} />)}
+            </div>
         </>
     )
 }
