@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import './Contact.scss';
 
+
+
 const contact = {
     twitter: "https://twitter.com/michaelharms70",
     github: "https://github.com/michaelharms6010",
