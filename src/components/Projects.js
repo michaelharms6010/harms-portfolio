@@ -10,17 +10,17 @@ import ZecpagesFront from "../assets/ZecpagesFront.PNG";
 import Project from "./Project";
 
 let projects = [
-    {image: citrics, description: "Citrics Description"},
-    {image: zecmailer, description: "Zecmailer Description"},
-    {image: ZecpagesFront, description: "Zecpages Frontpage"},
-    {image: ZecpagesBoard, description: "Zecpages Board"}]
+    {image: citrics, description: "Citrics Description", url: "https://v1.citrics.io"},
+    {image: zecmailer, description: "Zecmailer Description", url: "https://zecmailer.com"},
+    {image: ZecpagesFront, description: "Zecpages Frontpage", url: "https://zecpages.com"},
+    {image: ZecpagesBoard, description: "Zecpages Board", url: "https://zecpages.com/board"}]
 
 export default function Projects() {
 
 
     return (
         <div className="project-grid">
-            {projects.map(project => <Project image={project.image} description={project.description} />)}
+            {projects.map(project => <Project image={project.image} description={project.description} url={project.url} />)}
 
         </div>
     )
