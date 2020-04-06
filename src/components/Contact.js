@@ -18,10 +18,10 @@ export default function Contact() {
     const [authority, setAuthority] = useState("I love authority!")
 
     const handleEnter = e => {
-        setAuthority("fuck you")
+
     }
     const handleLeave = e => {
-        setAuthority("I love authority!")
+
     }
     return (
         <div className="contact-page">
