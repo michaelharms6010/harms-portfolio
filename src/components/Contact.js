@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import './Contact.scss';
 
 import github from "../assets/githublogo.png"
