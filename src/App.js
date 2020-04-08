@@ -6,6 +6,7 @@ import Navigation from "./components/Navigation";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Bio from "./components/Bio";
+import Welcome from "./components/Welcome";
 
 function App() {
   return (

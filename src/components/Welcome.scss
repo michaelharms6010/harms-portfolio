@@ -1,0 +1,11 @@
+.welcome-page {
+    img {
+        border-radius:20px;
+        width: 20%;
+        transition:.5s;
+        &:hover {
+            transform: scale(1.03)
+        }
+    }
+    color: #CFA2C7;
+}
