@@ -15,7 +15,6 @@ const contact = [
 ]
 
 export default function Contact() {
-    const [authority, setAuthority] = useState("I love authority!")
 
     return (
         <div data-aos="zoom-in-right" className="contact-page">
