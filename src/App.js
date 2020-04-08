@@ -8,7 +8,7 @@ import Projects from "./components/Projects";
 import Bio from "./components/Bio";
 import Welcome from "./components/Welcome";
 import AOS from "aos";
-
+import 'aos/dist/aos.css';
 AOS.init()
 
 function App() {

@@ -17,14 +17,8 @@ const contact = [
 export default function Contact() {
     const [authority, setAuthority] = useState("I love authority!")
 
-    const handleEnter = e => {
-
-    }
-    const handleLeave = e => {
-
-    }
     return (
-        <div className="contact-page">
+        <div data-aos="zoom-in-right" className="contact-page">
             <h2>Contact me</h2>
             <p className="contact-cta">I'm always looking for new and exciting ways to contribute to the positive-sum economy of ideas! Contact me and let's do great things!</p>
             <div className="contact-icons">

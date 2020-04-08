@@ -3,7 +3,7 @@ import github from "../assets/githublogo.png"
 
 export default function Project({image, description, url, techs, githuburl}) {
     return(
-        <div className="project">
+        <div data-aos="fade-left" data-aos-duration="1000" className="project">
             <a className="project-link" rel="noopener noreferrer" href={url} target="_blank">
                 <img alt={description.split(" ")[0]}className="project-image" src={image} />
             </a>
