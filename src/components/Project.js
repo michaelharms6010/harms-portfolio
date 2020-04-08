@@ -1,5 +1,4 @@
 import React from "react";
-import github from "../assets/githublogo.png"
 
 export default function Project({image, description, url, techs, githuburl}) {
     return(
