@@ -1,0 +1,31 @@
+.bio {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+
+    div {
+        background: turquoise;
+        padding: 10px;
+        color: #393E41;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        padding-bottom: 20px;
+        p {
+            text-align: left;
+        }
+    }
+    button {
+        background: #E94F37;
+        border:none;
+        color: #f7f7f7;
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 10px;
+        cursor:pointer;
+        border: 1px solid black;
+        &:active {
+            transform: scale(.97)
+        }
+    } 
+
+}

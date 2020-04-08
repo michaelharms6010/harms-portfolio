@@ -7,6 +7,9 @@ import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Bio from "./components/Bio";
 import Welcome from "./components/Welcome";
+import AOS from "aos";
+
+AOS.init()
 
 function App() {
   return (

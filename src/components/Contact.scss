@@ -3,9 +3,15 @@
         cursor:progress;
     }
 
+    .contact-cta {
+        width: 70%;
+        margin: 1% auto;
+    }
+
     .contact-icons {
         width: 60%;
         margin: 2% auto;
+        max-width: 800px;
         display:flex;
         background: whitesmoke;
         border-radius:20px;

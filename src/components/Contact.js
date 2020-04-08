@@ -26,7 +26,7 @@ export default function Contact() {
     return (
         <div className="contact-page">
             <h2>Contact me</h2>
-            <p>I'm a team player and extremely conformist! <span onMouseEnter={handleEnter} onMouseLeave={handleLeave}>{authority}</span></p>
+            <p className="contact-cta">I'm always looking for new and exciting ways to contribute to the positive-sum economy of ideas! Contact me and let's do great things!</p>
             <div className="contact-icons">
                 {contact.map(item => 
                 <a href={item.url}>

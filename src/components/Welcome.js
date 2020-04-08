@@ -7,7 +7,7 @@ export default function Welcome() {
 
     return (
         <div className="welcome-page">
-            <img className="mike-pic" alt="Mike's face" src={mike} />
+            <Link to="/bio"><img className="mike-pic" alt="Mike's face" src={mike} /></Link>
             <h1>Michael Harms</h1>
             <h3>Full Stack Web Developer, Open Source Creator</h3>
         </div>
