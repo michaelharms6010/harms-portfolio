@@ -1,8 +1,8 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import './Bio.scss';
 
 export default function Bio() {
-
     return (
         <div data-aos="zoom-in" className="bio">
             <div className="greeting">
@@ -17,7 +17,7 @@ export default function Bio() {
                 <h2>Open Source Builder</h2>
                 <p>I build free software tools in my spare time which aim democratize access to financial privacy. I love Zcash, Monero, and all cryptocurrencies doing work in this area, who are working to make the dignity and consent that comes with privacy available to all, not just the super-powerful.</p>
             </div>
-            <button className="next-button">See some products I've built!</button>
+            <Link to="/products"><button className="next-button">See some products I've built!</button></Link>
         </div>
     )
 }
