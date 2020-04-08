@@ -7,7 +7,7 @@ export default function Bio() {
         <div data-aos="zoom-in" className="bio">
             <div className="greeting">
                 <h2>A Hearty Hello to all!</h2>
-                <p>Hi! I'm Michael. I'm a full stack developer building open source educational, entertainment, and cryptocurrency products. A relentless optimist, I'm convinced humanity is at the dawn of a new Golden Age. I am to bring efficient products to market to help be a part of designing and building a better future for all humans.</p>
+                <p>Hi! I'm Michael. I'm a full stack developer building open source educational, entertainment, and cryptocurrency products. A relentless optimist, I'm convinced humanity is at the dawn of a new Golden Age. I aim to bring efficient products to market to help be a part of designing and building a better future for all humans.</p>
             </div>
             <div className="team-leadership">
                 <h2>Team Leader</h2>
