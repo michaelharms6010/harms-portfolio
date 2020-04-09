@@ -16,6 +16,9 @@
             color: #393E41;
             text-align: left;
             padding: 20px;
+            display: flex;
+            flex-direction:column;
+            justify-content:space-between;
             h4 {
                 text-align:center;
                 margin-bottom: 15px;
