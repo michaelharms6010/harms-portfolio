@@ -17,7 +17,7 @@ export default function Welcome() {
                     <strong>Skills: React, Node, Knex, Postgres, Sass, AWS, Git, Passportjs, zcashd</strong>
                 </p>
             </div>
-            <Link to="/products"><button className="next-button">See My Recent Projects</button></Link>
+            <Link to="/projects"><button className="next-button">See My Recent Projects</button></Link>
             
         </div>
         <WelcomeContact />
