@@ -8,7 +8,7 @@ export default function Welcome() {
 
     return (
         <>
-        <div data-aos="fade-down" className="welcome-page">
+        <div data-aos="fade-down" data-aos-offset="500" className="welcome-page">
             <Link to="/bio"><img className="mike-pic" alt="Mike's face" src={mike} /></Link>
             <h1>Michael Harms</h1>
             <h3>Full Stack Web Developer, Open Source Creator</h3>

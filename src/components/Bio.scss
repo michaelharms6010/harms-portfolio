@@ -14,9 +14,7 @@
         margin: 10px;
         border-radius: 10px;
         padding-bottom: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+
 
         
 
@@ -24,7 +22,8 @@
             text-align: left;
         }
         .skills {
-            margin-top: 10px;
+            margin-top: 20px;
+            font-size: 1.2rem;
         }
         
     }
