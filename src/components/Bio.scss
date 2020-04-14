@@ -4,16 +4,26 @@
     max-width: 800px;
     min-height:100vh;
 
-    div {
+    .greeting, .team-leadership, .open-source {
         background: turquoise;
         padding: 10px;
         color: #393E41;
-        margin-bottom: 10px;
+        margin: 10px;
         border-radius: 10px;
         padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        
+
         p {
             text-align: left;
         }
+        .skills {
+            margin-top: 10px;
+        }
+        
     }
     button {
         background: #E94F37;
@@ -28,5 +38,30 @@
             transform: scale(.97)
         }
     } 
+
+    .top-row {
+        display: flex;
+        
+        .greeting {
+            width: 60%;
+            @media (max-width: 800px) {
+                width: 97%;
+            }
+        }
+        .team-leadership {
+            width: 40%;
+            @media (max-width: 800px) {
+                width: 97%;
+            }
+        }
+        .open-source {
+            @media (max-width: 800px) {
+                width: 100%;
+            }
+        }
+        @media (max-width: 800px) {
+            flex-direction:column;
+        }
+    }
 
 }
