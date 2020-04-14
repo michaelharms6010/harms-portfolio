@@ -17,7 +17,7 @@ const contact = [
 export default function Contact() {
 
     return (
-        <div className="welcome-contact-page">
+        <div data-aos="fade-up" className="welcome-contact-page">
             <div className="welcome-contact-icons">
                 {contact.map(item => 
                 <a href={item.url}>
