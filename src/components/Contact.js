@@ -17,7 +17,7 @@ const contact = [
 export default function Contact() {
 
     return (
-        <div data-aos="zoom-in-right" className="contact-page">
+        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" className="contact-page">
             <h2>Contact me</h2>
             <p className="contact-cta">I'm always looking for new and exciting ways to contribute to the positive-sum economy of ideas! Contact me because we can do great things!</p>
             <div className="contact-icons">
