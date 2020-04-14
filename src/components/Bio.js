@@ -8,7 +8,7 @@ export default function Bio() {
             <div className="greeting">
                 <h2>A Hearty Hello to all!</h2>
                 <p>Hi! I'm Michael. I'm a full stack developer building open source educational, entertainment, and cryptocurrency products. A relentless optimist, I'm convinced humanity is at the dawn of a <strong>new Golden Age.</strong> I aim to bring efficient products to market to help be a part of designing and building a better future for all humans.</p>
-                <p><strong>Technologies Mastered: React, Node, Knex, Postgres, Sass, AWS, Git, Passportjs, zcashd</strong></p>
+                <p><strong>I build products using React, Node, Knex, Postgres, Sass, AWS, Git, Passportjs, zcashd</strong></p>
             </div>
             <div className="team-leadership">
                 <h2>Team Leader</h2>
