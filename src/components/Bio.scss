@@ -3,6 +3,9 @@
     margin: 5vh auto;
     max-width: 800px;
     min-height:100vh;
+    h2 {
+        margin-bottom: 10px;
+    }
 
     .greeting, .team-leadership, .open-source {
         background: turquoise;
