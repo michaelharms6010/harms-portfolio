@@ -11,7 +11,7 @@ export default function Navigation() {
 
             <div className="nav-links">
                 <NavLink activeClassName="active-link" to="/bio">Bio</NavLink>
-                <NavLink activeClassName="active-link" to="/products">Products</NavLink>
+                <NavLink activeClassName="active-link" to="/projects">Projects</NavLink>
                 <NavLink activeClassName="active-link" to="/contact">Contact</NavLink>
             </div>
         </div>

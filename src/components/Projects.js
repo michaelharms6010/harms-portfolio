@@ -17,7 +17,7 @@ let projects = [
 export default function Projects() {
     return (
         <div className="project-page">
-            <h2>My Products:</h2> 
+            <h2>My Projects:</h2> 
             <div className="project-grid">
                 {projects.map(project => { 
                     return <Project 

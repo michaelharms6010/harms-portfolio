@@ -7,6 +7,7 @@ import WelcomeContact from "./WelcomeContact";
 export default function Welcome() {
 
     return (
+        <>
         <div data-aos="fade-down" className="welcome-page">
             <Link to="/bio"><img className="mike-pic" alt="Mike's face" src={mike} /></Link>
             <h1>Michael Harms</h1>
@@ -17,7 +18,9 @@ export default function Welcome() {
                 </p>
             </div>
             <Link to="/products"><button className="next-button">See My Recent Projects</button></Link>
-            <WelcomeContact />
+            
         </div>
+        <WelcomeContact />
+        </>
     )
 }
