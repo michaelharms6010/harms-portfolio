@@ -12,8 +12,8 @@ export default function Bio() {
                     <p className="skills"><strong>I build products using React, Node, Knex, Postgres, Sass, AWS, Git, Passportjs, and zcashd</strong></p>
                 </div>
                 <div className="team-leadership">
-                    <h2>Team Leader</h2>
-                    <p>As a <strong>Team Lead in Lambda School's WEB program,</strong> I mentor new web developers through their first taste of HTML/CSS/Javascript, all the way through their first React and Node apps. Along the way I also am a PM for student builds, basically week-long hackathons where cross-functional teams apply what they've learned to building a real app in an Agile team environment.</p>
+                    <h2>Team Leader, Engineer</h2>
+                    <p>As a human, leader, and, mentor, I believe in usng adaptable systems that get great results. I'm a big fan of Agile mindset, less so of Agile certifications. I'm flexible, and I do what works and keeps my team happy and effective. There's no cert for that.</p>
                 </div>
             </div>
             <div className="open-source">
